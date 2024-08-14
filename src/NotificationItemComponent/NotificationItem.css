@@ -1,0 +1,131 @@
+div#notificationItem {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 7px 0 #9b9cc1d4;
+
+}
+
+#notificationItem:hover {
+    background-color: #0000001f;
+}
+
+.addBackground {
+    background: hsl(211, 68%, 94%);
+}
+
+#notificationItemContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#content h2 {
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+#time {
+    padding: 6px;
+    color: hsl(219, 14%, 63%);
+}
+
+
+
+.showMessage {
+    border: 1px solid #8080804f;
+    padding: 25px;
+    line-height: 24px;
+}
+
+#userImage img {
+    width: 50px;
+}
+
+.addtextBold {
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-wrap: balance;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: hsl(1, 90%, 64%);
+    border-radius: 50%;
+}
+
+a.addDifferentColor {
+    font-weight: 800;
+    font-size: 15px;
+    color: hsl(219, 85%, 26%);
+    text-decoration: none;
+}
+
+
+
+#actionLink {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+a.mainColor {
+    font-weight: 800;
+    font-size: 15px;
+    color: hsl(224deg 14.26% 38.06%);
+    text-decoration: none;
+}
+
+img.chessPic {
+    width: 60px;
+    position: absolute;
+    right: 28px;
+    top: 21px;
+}
+
+.addNoWrap {
+    text-wrap: nowrap;
+}
+
+
+@media (max-width: 768px) {
+    div#title {
+        display: grid;
+    }
+
+    div#notificationItem {
+        width: 100%;
+    }
+
+    a.mainColor {
+        font-size: 14px;
+    }
+
+    img.chessPic {
+        width: 38px;
+        position: absolute;
+        right: 12px;
+        top: 46px;
+    }
+
+    section {
+
+        text-wrap: wrap;
+    }
+}

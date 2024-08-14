@@ -1,0 +1,50 @@
+#notificationCounter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#counter span {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#mark {
+    color: hsl(219deg 7.91% 42.47%);
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#counter #count {
+    border: none;
+    border-radius: 7px;
+    width: 36px;
+    height: 34px;
+    background-color: hsl(219, 85%, 26%);
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* 
+@media (max-width: 768px) {
+    }
+
+    */
+@media (max-width: 768px) {
+    #counter span {
+        font-size: 20px;
+    }
+}
